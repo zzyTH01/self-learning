@@ -1,0 +1,16 @@
+[project]
+name = "rl-cse-jupyterbook"
+version = "0.1.0"
+description = "Learn reinforcement learning and flow-control with JAX notebooks"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26",
+  "matplotlib>=3.8",
+  "jax>=0.4.30",
+  "ipykernel>=6.29",
+  "nbformat>=5.10",
+]
+[project.optional-dependencies]
+book = ["jupyter-book>=2.0"]
+[tool.uv]
+package = false

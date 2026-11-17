@@ -1,0 +1,21 @@
+version: 1
+project:
+  id: 91ab238c-fb7c-4b59-9bd6-f0b0c7198b5a
+  title: 从强化学习到 CFD 流动控制：JAX 科研编程实践
+  description: 面向代理模型与二维圆柱绕流的强化学习 Jupyter Book
+  toc:
+    - file: README.md
+    - title: 课程与算法
+      children:
+        - file: 00_学习地图与环境.ipynb
+        - file: 01_MDP与Bellman.ipynb
+        - file: 02_TD与Q_Learning.ipynb
+        - file: 03_策略梯度REINFORCE.ipynb
+        - file: 04_ActorCritic与GAE.ipynb
+        - file: 05_JAX实现PPO连续控制.ipynb
+        - file: 06_DQN_TD3_SAC_比较.ipynb
+        - file: 07_代理模型与ModelBasedRL.ipynb
+        - file: 08_CFD环境设计与奖励.ipynb
+        - file: 09_科研代码复现与测试.ipynb
+site:
+  template: book-theme
